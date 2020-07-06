@@ -17,8 +17,9 @@ public class ResetKeyword {
         FileOutputStream f2 = new FileOutputStream("D:\\New folder\\test1.txt");
         BufferedOutputStream bout = new BufferedOutputStream(f2);
         int x;
-        byte[] arr = new byte[1024];
+        
         bin.skip(10);
+        bin.mark(100);
         x = bin.read();
         System.out.println((char) x);
         x = bin.read();
