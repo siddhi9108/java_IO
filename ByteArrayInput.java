@@ -9,7 +9,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class ByteArray {
+public class ByteArrayInput {
 
     public static void main(String[] args) throws FileNotFoundException, IOException {
 
